@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test_suite_demo_2" verbose="2">
+	<listeners>
+		<listener class-name="com.bwf.liudao.listener.MyTestListener" />
+		<listener class-name="com.bwf.liudao.listener.MyAnnotationTransformer" />
+	</listeners>
+	<test name="test_demo_02">
+		<parameter name="x_value" value="10" />
+		<parameter name="y_value" value="20" />
+		<parameter name="expected_value" value="30" />
+		<classes>
+			<class name="com.bwf.liudao.test.CalcTest" />
+		</classes>
+	</test>
+</suite>
