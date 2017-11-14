@@ -8,7 +8,7 @@ public class DeleteNoteTest extends BaseTest {
 	@Test
 	public void deleteTest() {
 		MainActivity mainActivity = new MainActivity(driver);
-		mainActivity.deleteNoteByIndex(10);
+		mainActivity.deleteNoteByIndex(1);
 	}
 	
 }
