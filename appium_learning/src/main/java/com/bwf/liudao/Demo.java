@@ -20,8 +20,8 @@ public class Demo {
 		
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("deviceName", "Nexus_5X_API_25");
-/*		caps.setCapability("platformName", "Android");
-		caps.setCapability("platformVersion", "7.1.1");*/
+		caps.setCapability("platformName", "Android");
+/*		caps.setCapability("platformVersion", "7.1.1");*/
 		caps.setCapability("appPackage", "com.android.calculator2");
 		caps.setCapability("appActivity", ".Calculator");
 		
